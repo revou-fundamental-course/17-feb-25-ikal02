@@ -1,0 +1,15 @@
+.main-header{
+
+}
+
+nav{
+    display: flex;
+}
+
+div{
+border: 1px solid;
+height: 50px;
+width: 50px;
+background-image: url(https://picsum.photos/500);
+background-size: cover;
+}
