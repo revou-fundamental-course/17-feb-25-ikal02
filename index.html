@@ -3,24 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ikal My Trip My Adventure</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
-    <!--header navigasi-->
-    <Header class="main-header">
-
-    </Header>
-   
     <nav>
-        <a href="http://">Home</a>
-        <a href="http://">Package Kita</a>
-        <a href="http://">Call Us</a>
+        <div class="logo">Ikal Adventure</div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Our Packages</a></li>
+            <li><a href="#cta">Call Us</a></li>
+        </ul>
     </nav>
-    <!--main-->
-    <main></main>
-    <!--footer-->
-    <footer></footer>
 
+
+    <section id="home">
+        <h1>Ayo jalan jalan Keberbagai lokasi di Jawa Barat Indonesia</h1>
+        <div class="container">
+    
+            <div class="banner-container">
+                <div class="banner" id="banner">
+                    <img src="assets/wisata1.png" alt="Daerah Wisata 1">
+                    <img src="assets/wisata2.png" alt="Daerah Wisata 2">
+                    <img src="assets/wisata3.png" alt="Daerah Wisata 3">
+                </div>
+                <div class="reviews">
+                    <h2>Reviews</h2>
+                    <p>"Hasil dari liburanku yang menyenangkan dibantu dengan jasa Ikal Corp_Media memberikan Pengalaman terbaik dan nyaman " - Fulana </p>
+                    <p>"Jasa Liburan terbaik di Jawa Barat, Gak diragukan si Ikal Corp_Media ini" - Fulan</p>
+                </div>
+            </div>
+
+
+            <div class="contact-container">
+                <section id="contact">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                    <form id="contactForm">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name"  required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                            
+                        
+                        <label for="destination">Apakah Kamu menarik dengan tawaran ini?</label>
+                        <select id="destination" name="destination" required>
+                            <option value="">Select option</option>
+                            <option value="Package 1">Green Canyon Pangandaran</option>
+                            <option value="Package 2">Taman Hutan Raya Juanda</option>
+                            <option value="Package 3">London</option>
+                            <option value="Package 4">Jerman</option>
+                            <option value="Package 5">Prancis</option>
+                            <option value="Package 6">Singapura</option>
+                        </select>
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="packages" id="packages">
+        <h2>Our Packages</h2>
+        <div class="package-container">
+            <div class="package">Jawa Barat
+                <p>Mari Wisata ke Green Canyon Pangandaran.</p>
+            </div>
+            <div class="package">Jawa Barat
+                <p>Mari Wisata ke Taman Hutan Raya Juanda</p>
+            </div>
+            <div class="package">Jawa Barat
+                <p>Travel dan wisata ke Inggris.</p>
+            </div>
+            <div class="package">Jawa Barat
+                <p>Travel dan wisata ke Jerman.</p>
+            </div>
+            <div class="package">Jawa Barat
+                <p>Travel dan wisata ke Prancis.</p>
+            </div>
+            <div class="package">Jawa Barat
+                <p>Travel dan wisata ke Singapura.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cta" class="call-to-action">
+        <h2>Apakah anda ingin Jalan - jalan dengan nyaman dan sudah siap?</h2>
+        <p>Ayo bergabung bersama Kami di Ikal Corp_Media</p>
+        <button class="cta-button">Call To Action</button>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
